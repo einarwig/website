@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="flex w-full h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-schema" content="light dark" />
+    <title>Einar Wigen</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/assets/styles-extra.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    
+  </head>
+  <body class="my-auto w-full" style="height: min-content;">
+    <header>
+      
+      <nav
+        class="
+          flex flex-wrap
+          items-center
+          justify-between
+          w-full
+          py-4
+          md:py-0
+          px-4
+          text-lg text-gray-700
+          bg-white
+        "
+      >
+       <div>
+          <a href="#">
+            <img src=""/>
+          </a>
+        </div>
+       
+         <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="menu-button"
+            class="h-6 w-6 cursor-pointer md:hidden block"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+       
+       <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+          <ul
+            class="
+              pt-4
+              text-base text-gray-700
+              md:flex
+              md:justify-between 
+              md:pt-0"
+          >
+          <li>
+            <a class="md:p-4 py-2 block hover:text-purple-400" href="/"
+              >Home</a
+            >
+          </li>
+            <li>
+              <a class="md:p-4 py-2 block hover:text-purple-400" href="/books"
+                >Books</a
+              >
+            </li>
+            <li>
+              <a class="md:p-4 py-2 block hover:text-purple-400" href="/publications"
+                >Publications</a
+              >
+            </li>
+            <li>
+              <a class="md:p-4 py-2 block hover:text-purple-400" href="/projects"
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    </header>
+      <!--<h1><a href="/">Einar Wigen</a></h1>-->
+
+      <!--<nav>
+        <ul>
+          <li><a href="/Projects">Projects</a></li>
+          <li><a href="/publications">Publications</a></li>
+          <li><a href="/resources">Resources</a></li>
+          <li><a href="mailto:einar.wigen@ikos.uio.no">Contact</a></li>
+        </ul>
+      </nav>
+    -->
+
+    <main class="profile-page">
+      <section class="relative block h-500-px">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover" style="
+                background-image: url('/assets/bg_mountains.jpg');
+              ">
+          <span id="blackOverlay" class="w-full h-full absolute opacity-50 bg-black"></span>
+        </div>
+        <!--<div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px" style="transform: translateZ(0px)">
+          <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
+          </svg>
+        </div>-->
+      </section>
+      <section class="relative py-16 bg-blueGray-200">
+        <div class="container mx-auto px-4">
+          
+<div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
+    <div class="px-6">
+      <div class="flex flex-wrap justify-center">
+        <div class="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
+          <div class="relative">
+            <img src="/assets/Wigen-1.jpg" alt="Einar Wigen, Photo: Ola Gamst Sæther" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px">
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-46">
+        <h3 class="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
+          Einar Wigen
+        </h3>
+        <div class="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
+          <i class="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>
+          Oslo, Norway
+        </div>
+        <div class="mb-2 text-blueGray-600 mt-10">
+          <i class="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>Head of Research
+        </div>
+        <div class="mb-2 text-blueGray-600">
+          <i class="fas fa-university mr-2 text-lg text-blueGray-400"></i>University of Oslo's Department of Culture, Religion, Asian and Middle Eastern Studies
+        </div>
+      </div>
+      <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full lg:w-9/12 px-4">
+            
+            <p class="mb-4 text-lg leading-relaxed text-blueGray-700">
+                Einar Wigen is professor of Middle Eastern studies and Head of Research at the University of Oslo's Department of Culture, Religion, Asian and Middle Eastern Studies. 
+                Empirically, his research interests range from early Turkic state-formation via plague in the Ottoman Empire to contemporary Turkish politics. On the theory side, he works on temporality, conceptual history, crises, polity systems, and political legitimacy.
+                
+                <br />
+                <br />
+                For his full academic CV, <a href="/Assets/CV_Wigen_Jan_2025.pdf" class="font-normal text-pink-500" target="_blank">click here</a>. 
+                You will find links to his publications and other resources in the menu above. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full lg:w-9/12 px-4">
+            
+            <p class="mb-4 text-lg leading-relaxed text-blueGray-700">
+              <section>
+                <h2>News</h2>
+              
+                <ul>
+                  <li>
+                    New position:
+                    <a
+                      href="https://www.hf.uio.no/om/aktuelt/aktuelle-saker/2024/dette-er-de-nye-instituttlederne-pa-hf.html"
+                      >Head of research</a
+                    >
+                    at Department of Culture, Religion, Asian and Middle Eastern Studies, University of
+                    Oslo, from 1 January 2025.
+                  </li>
+                  <li>
+                    Edited book:
+                    <a
+                      href="https://www.routledge.com/Uses-of-Iver-Neumann-Nothing-International-is-Alien/Leira-Lahijani-Wigen/p/book/9781032708201?srsltid=AfmBOorUM4PNkgo5WTxeSG_nlTE5oupgPuy1x-bVjs_wgzdjnpDT1r7x"
+                      >"<em>Uses of Iver Neumann: Nothing International Is Alien</em>" (co-edited with Halvard Leira and Alireza Shams Lahijani) Abingdon: Routledge </a>
+                  </li>
+                   <li>
+                    Article:
+                    <a
+                      href="https://www.berghahnjournals.com/view/journals/contributions/19/2/choc190204.xml"
+                      >"<em>Siyaset</em> or <em>Politika</em>? The Emergence of Modern Vocabulary of Rule in the Ottoman Empire"</a> (with Alp Eren Topal)
+                   <em>Contributions to the History of Concepts</em> 19 (2): 65-88.
+                  </li>
+                  <li>
+                    Op. ed. (in Norwegian):
+                    <a
+                      href="https://www.aftenposten.no/meninger/kronikk/i/Q7j7X8/tyrkia-har-latt-muligheten-til-aa-fremstaa-som-europeisk-og-demokratisk-gaa-fra-seg"
+                      >"Tyrkia har latt muligheten til å fremstå som europeisk og demokratisk gå fra seg."</a
+                    >
+                    <em>Aftenposten</em> 28th January 2023.
+                  </li>
+                  <li>
+                    Partner in ERC Synergy Grant:
+                    <a
+                      href="https://www.synergy-plague.org/"
+                      >Reconstructing the environmental, biological, and societal drivers of plague outbreaks in Eurasia between 1300 and 1900 CE – Synergy-Plague</a
+                    >
+                    headed by PIs Nils Christian Stenseth (UiO), Ulf Büntgen (Cambridge), Phil Slavin (Stirling) and Florent Sebbane (Lille)
+                  </li>
+                </ul>
+              </section>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full lg:w-9/12 px-4">
+            
+            <p class="mb-4 text-lg leading-relaxed text-blueGray-700">
+
+              <ul>
+                <li>
+                  <a
+                    href="https://www.hf.uio.no/ikos/english/people/aca/middle-east-studies/tenured/einarwig/index.html">
+                    <i class="fas fa-university"></i> University website
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://scholar.google.com/citations?user=fzTDNN8AAAAJ&hl=en">
+                    <i class="fas fa-graduation-cap"></i> Google Scholar
+                  </a>
+                </li>
+                <li>
+            <a href="https://uio.academia.edu/EinarWigen"> <i class="fab fa-academia"></i> Academia.edu</a>
+            </li>
+            </ul>
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+</div>
+
+        </div>
+        <footer class="relative bg-blueGray-200 pt-8 pb-6 mt-8">
+          <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+              <div class="w-full md:w-6/12 px-4 mx-auto text-center">
+                <div class="text-sm text-blueGray-500 font-semibold py-1">
+                  Footer text, bla bla.
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </section>
+    </main>
+
+    <script>
+      const button = document.querySelector('#menu-button');
+      const menu = document.querySelector('#menu');
+
+
+      button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+
+    </script>
+  </body>
+</html>
