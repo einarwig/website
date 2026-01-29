@@ -1,0 +1,28 @@
+[
+
+    {
+        "name":"State of Translation", 
+        "description": "Turkey in Interlingual Relations", 
+        "image": "/website/Assets/State_of_Translation.jpeg",
+        "url": "https://press.umich.edu/Books/S/State-of-Translation#:~:text=%E2%80%9CState%20of%20Translation%20advances%20an,politics%20across%20other%20linguistic%20divides.%E2%80%9D"
+    },
+    {
+        "name":"Steppe Tradition in International Relations", 
+        "description": "Russians, Turks and European State Building 4000 BCE-2017 CE<br/>co-authored with Iver B. Neumann", 
+        "image": "/website/Assets/Steppe_Tradition.jpeg",
+        "url": "https://www.cambridge.org/core/books/steppe-tradition-in-international-relations/C076E3097F607CC95B013454DB413FC5"
+    },
+    {
+        "name":"Steppe Tradition in International Relations", 
+        "description": "Steppe Tradition in International Relations<br/>Turkey in Interlingual Relations</br><a href=\"https://www.cambridge.org/core/books/steppe-tradition-in-international-relations/C076E3097F607CC95B013454DB413FC5\">Steppe Tradition in International Relations</a>Russians, Turks and European State Building 4000 BCE-2017 CE</p></br>co-authored with Iver B. Neumann", 
+        "image": "/website/Assets/Building_Bridges_to_Turkish.jpg",
+        "url": "https://press.umich.edu/Books/S/State-of-Translation#:~:text=%E2%80%9CState%20of%20Translation%20advances%20an,politics%20across%20other%20linguistic%20divides.%E2%80%9D"
+    },
+    {
+        "name":"Turkey in Interlingual Relations", 
+        "description": "Turkey in Interlingual Relations</br><a href=\"https://www.cambridge.org/core/books/steppe-tradition-in-international-relations/C076E3097F607CC95B013454DB413FC5\">Steppe Tradition in International Relations</a></br>Russians, Turks and European State Building 4000 BCE-2017 CE</br>co-authored with Iver B. Neumann", 
+        "image": "/website/Assets/Uses_of_Iver_Neumann.jpeg",
+        "url": "https://press.umich.edu/Books/S/State-of-Translation#:~:text=%E2%80%9CState%20of%20Translation%20advances%20an,politics%20across%20other%20linguistic%20divides.%E2%80%9D"
+    }
+]
+
